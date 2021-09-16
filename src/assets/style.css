@@ -29,7 +29,7 @@ html {
   position: relative;
   overflow: hidden;
 }
-
+/*鼻子*/
 .snip {
   width: 0;
   height: 0;
@@ -57,7 +57,7 @@ html {
     margin-left: -21px;
   }
 } */
-
+/*眼睛*/
 .eye {
   position: absolute;
   width: 46px;
@@ -117,6 +117,7 @@ html {
     left: 15px;
   }
 }
+/*腮红*/
 .face {
   position: absolute;
   width: 64px;
@@ -153,7 +154,7 @@ html {
     top: 105px;
   }
 }
-
+/*嘴巴+胡子*/
 .mouth {
   height: 150px;
   width: 150px;
@@ -215,7 +216,7 @@ html {
   right: -3px;
   transform: rotate(30deg);
 }
-
+/*舌头*/
 .tongue {
   width: 140px;
   height: 140px;
@@ -226,7 +227,7 @@ html {
   border-top-right-radius: 420px 380px;
   overflow: hidden;
 }
-
+/*手*/
 .hand {
   position: absolute;
   left: 50%;
@@ -254,14 +255,12 @@ html {
     top: 325px;
   }
 }
-
+/*精灵球*/
 .box {
   width: 82px;
   height: 82px;
-  border: 3px solid #fff;
   border-radius: 50%;
   position: relative;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
   left: 50%;
   top: 320px;
   margin-left: -44px;
